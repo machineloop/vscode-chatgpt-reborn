@@ -316,7 +316,7 @@ Current date: ${currentDate}`;
       content: ""
     } as DeltaMessage;
     const responseP = (new Promise(async (resolve, reject) => {
-      const url = `${this._apiBaseUrl}/v1/chat/completions`;
+      const url = `${this._apiBaseUrl}`;
       const headers = {
         // eslint-disable-next-line @typescript-eslint/naming-convention
         "Content-Type": "application/json",
